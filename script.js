@@ -5,7 +5,9 @@ const myNumber = 3;
     console.log("It's a negative number")
 }
 
-
+function daysUntilTheWeekend(event);
+var days = evnt.target.value;
+days = days.toUpperCase();
 switch(days){
     case "Monday":
         days = "Five more days left"
