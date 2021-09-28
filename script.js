@@ -33,7 +33,19 @@ switch(new Date().getDay()){
     } 
 
     // 3.
-switch(new vegtables.getPrice()){
+const vegtable = "carrot";
+switch(vegtable){
     case "carrot":
-
+    case "potatoes":   
+        console.log("its fifty pence per kg");
+        break;
+    case "brocolli":
+    console.log("its 40 pence per kg")   
+        break;
+    case "cabbage":
+        console.log("20 pence per kg")
+        break; 
+    case "asspargus":
+        console.log("55 pence per kg")
+        break;
 }
