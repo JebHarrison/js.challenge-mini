@@ -1,3 +1,5 @@
+// 1.
+
 const myNumber = 3;
  if (myNumber >= 0){
     console.log("It's a positive number")
@@ -5,27 +7,27 @@ const myNumber = 3;
     console.log("It's a negative number")
 }
 
-
-switch(days){
-    case "Monday":
-        howMany = "Five more days left"
+// 2.
+switch(new Date().getDay()){
+    case 1:
+        console.log("Five more days left");
         break;
-    case "Tuesday":
-        howMany = "Four more days left"
+    case 2:
+        console.log("Four more days left");
         break;
-    case "Wednesday":
-        howMany = "Three more days left"
+    case 3:
+        console.log("Three more days left");
         break;
-    case "Thursday":
-        howMany = "Two more days left"
+    case 4:
+        console.log("Two more days left");
         break;
-    case "Friday":
-        howMany = "One more day left put on your party shoes!"
+    case 5:
+        console.log("One more day left put on your party shoes!");
         break;
-    case "Saturday":
-        howMany = "It's the weekend baby let's groove tonight"
+    case 6:
+        console.log("It's the weekend baby let's groove tonight");
         break;
-    case "Sunday":
-        howMany = "Well that was quick, let's take it easy today"
+    case 7:
+        console.log("Well that was quick, let's take it easy today");
         break;
     }
