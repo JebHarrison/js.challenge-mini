@@ -33,4 +33,7 @@ switch(new Date().getDay()){
     } 
 
     // 3.
+switch(new vegtables.getPrice()){
+    case "carrot":
 
+}
