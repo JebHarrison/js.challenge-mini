@@ -5,17 +5,6 @@ const myNumber = 3;
     console.log("It's a negative number")
 }
 
-function daysUntilTheWeekend(event){
-var days = event.target.value;
-// if (!days){
-//     return alert("Sorry we didn't recognise that day")
-// }else {
-//     return alert("Sorry we didn't recognise that day")
-// }
-
-days = days.toUpperCase();
-
-var howMany;
 
 switch(days){
     case "Monday":
@@ -40,6 +29,3 @@ switch(days){
         howMany = "Well that was quick, let's take it easy today"
         break;
     }
-
-    alert(days + howMany);
-}
