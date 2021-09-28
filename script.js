@@ -28,4 +28,6 @@ switch(days){
         case "Sunday":
         days = "Well that was quick, let's take it easy today"
         break;
+
+        alert(days);
 }
