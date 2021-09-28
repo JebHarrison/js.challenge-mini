@@ -30,4 +30,7 @@ switch(new Date().getDay()){
     case 7:
         console.log("Well that was quick, let's take it easy today");
         break;
-    }
+    } 
+
+    // 3.
+
