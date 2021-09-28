@@ -5,8 +5,8 @@ const myNumber = 3;
     console.log("It's a negative number")
 }
 
-function daysUntilTheWeekend(event);
-var days = evnt.target.value;
+function daysUntilTheWeekend(event){
+var days = event.target.value;
 days = days.toUpperCase();
 switch(days){
     case "Monday":
@@ -30,6 +30,6 @@ switch(days){
     case "Sunday":
         days = "Well that was quick, let's take it easy today"
         break;
-
+    }
         alert(days);
 }
